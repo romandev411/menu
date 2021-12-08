@@ -1,0 +1,52 @@
+ 
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box
+  }
+
+  body > ul {
+      font-size: 0;
+  }
+  
+  body > ul li {
+    display: inline-block;
+    width: 200px;
+  }
+  
+  li {
+    position: relative;
+    background-color: red;
+    width: 100%;
+    font-size: 14px;
+  }
+  
+  a {
+    width: 100%;
+    display: inline-block;
+    padding: 10px;
+    border: 1px solid #000;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: sanf-serif;
+  }
+  
+  ul ul {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    display: none;
+    width: 100%;
+  }
+  
+  ul ul ul{
+    top: 0;
+    left: 100%;
+  }
+  
+  li:hover > ul {
+    display: block;
+  }
+  
+  
